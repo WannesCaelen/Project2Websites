@@ -1,30 +1,84 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon" href="../Foto/Wannes.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Homepage</title>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars">C</i>
-        </label>
-        <label class="logo">Wannes</label>
-        <ul>
-            <li><a class="#" href="index.html">Home</a></li>
-            <li><a href="#">Competenties</a></li>
-            <li><a href="#">ContactGegevens</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">CV</a></li>
-        </ul>
-    </nav>
-    <section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" >Wannes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="curriculumvitae.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactgegevens.html">contactgegevens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="competenties.html">competenties</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Introductie</h1>
+        <p class="col-md-8 fs-6">
+            Ik ben een gepassioneerde student met een bescheiden maar groeiende ervaring in het
+            programmeergebied. Mijn diepgewortelde interesse in programmeren stuwt me voortdurend naar streven
+            naar excellentie en innovatie. Mijn expertise omvat C#, HTML, SQL en JAVASCRIPT. Ik heb met succes
+            mijn studie afgerond aan Thomas More in Geel, waar ik een stevige basis in programmeren heb gelegd.
+          </p>
 
+        <p class="col-md-8 fs-6">
+            Mijn benadering van werk is gefundeerd op toewijding, teamwerk en het vermogen om problemen op te
+            lossen. Ik ben altijd op zoek naar nieuwe uitdagingen en kansen om mijn <a href="competenties.html">Vaardigheden</a> verder te
+            ontwikkelen en waarde toe te voegen aan deze branche. Als programmeur streef ik ernaar om heldere en
+            functionele code te schrijven. En om vooral ook bij te leren.
+        </p>
+             
+        </div>
+      
+        <img src="../foto/zyro-image.png" class= "img-fluid" alt="HoofdPaginaFoto">
+           
 
-    </section>
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Bekijk zeker mijn andere pagina's!</h1>
+                <p class="col-md-8 fs-6">
+                        Ik nodig je dus ook van harte uit om mijn <a href="curriculumvitae.html">Curriculum Vitae</a> te verkennen, zodat je meer te weten kunt komen over mijn
+                        professionele achtergrond en prestaties. Als je interesse hebt in mijn diensten of als je wilt samenwerken,
+                        aarzel dan niet om <a href="contactgegevens.html">Contact</a> met me op te nemen. 
+                        Laten we samenwerken aan boeiende projecten en nieuwe uitdagingen aangaan in de wereld van het programmeren.
+                    </p>
+                    <p class="col-md-8 fs-6">
+                        Als student en programmeur, is mijn wereld niet beperkt tot alleen code en technologie. 
+                        Naast het schrijven van heldere en functionele code, deel ik graag mijn fascinatie voor strategische games, 
+                        waarbij teamwork en het aanpakken van complexe uitdagingen centraal staan. 
+                        Wil je meer ontdekken over mijn interesses en hoe ze bijdragen aan mijn professionele groei? 
+                        Breng een bezoek aan mijn <a href="hobbies.html">Hobby's</a> om meer te weten te komen over mijn vrijetijdsbesteding en de impact ervan op 
+                        mijn vaardigheden en benadering van het leven.
+                    </p> 
+            </div>
+<footer>
+    <p>© 2023 Wannes Caelen</p>
+</footer>
+
 </body>
 </html>
