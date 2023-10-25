@@ -9,6 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Homepage</title>
 </head>
+
+
+<!-- einde head (waar al mijn links naar bootstrap instaan enzo.)-->
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -22,63 +25,148 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="hobbies.html">hobbies</a>
+                <a class="nav-link" href="hobbies.html">Hobby's</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="curriculumvitae.html">CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contactgegevens.html">contactgegevens</a>
+                <a class="nav-link" href="contactgegevens.html">Contactgegevens</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="competenties.html">competenties</a>
+                <a class="nav-link" href="competenties.html">Vaardigheden</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    
-    <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Introductie</h1>
-        <p class="col-md-8 fs-6">
-            Ik ben een gepassioneerde student met een bescheiden maar groeiende ervaring in het
+<!-- einde nav bar-->
+
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../img/zyro-image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welkom!</h1>
+          <p class="lead">Ik ben Wannes, een gepassioneerde student met een bescheiden maar groeiende ervaring in het
             programmeergebied. Mijn diepgewortelde interesse in programmeren stuwt me voortdurend naar streven
             naar excellentie en innovatie. Mijn expertise omvat C#, HTML, SQL en JAVASCRIPT. Ik heb met succes
-            mijn studie afgerond aan Thomas More in Geel, waar ik een stevige basis in programmeren heb gelegd.
-          </p>
-
-        <p class="col-md-8 fs-6">
-            Mijn benadering van werk is gefundeerd op toewijding, teamwerk en het vermogen om problemen op te
-            lossen. Ik ben altijd op zoek naar nieuwe uitdagingen en kansen om mijn <a href="competenties.html">Vaardigheden</a> verder te
-            ontwikkelen en waarde toe te voegen aan deze branche. Als programmeur streef ik ernaar om heldere en
-            functionele code te schrijven. En om vooral ook bij te leren.
-        </p>
-             
+            mijn studie afgerond aan Thomas More in Geel, waar ik een stevige basis in programmeren heb gelegd.</p>
+            <p class="lead">Mijn benadering van werk is gefundeerd op toewijding, teamwerk en het vermogen om problemen op te
+              lossen. </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="contactgegevens.html">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Call to action</button>
+          </a>
+          </div>
         </div>
-      
-        <img src="../foto/zyro-image.png" class= "img-fluid" alt="HoofdPaginaFoto">
-           
+      </div>
 
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Bekijk zeker mijn andere pagina's!</h1>
-                <p class="col-md-8 fs-6">
-                        Ik nodig je dus ook van harte uit om mijn <a href="curriculumvitae.html">Curriculum Vitae</a> te verkennen, zodat je meer te weten kunt komen over mijn
-                        professionele achtergrond en prestaties. Als je interesse hebt in mijn diensten of als je wilt samenwerken,
-                        aarzel dan niet om <a href="contactgegevens.html">Contact</a> met me op te nemen. 
-                        Laten we samenwerken aan boeiende projecten en nieuwe uitdagingen aangaan in de wereld van het programmeren.
-                    </p>
-                    <p class="col-md-8 fs-6">
-                        Als student en programmeur, is mijn wereld niet beperkt tot alleen code en technologie. 
-                        Naast het schrijven van heldere en functionele code, deel ik graag mijn fascinatie voor strategische games, 
-                        waarbij teamwork en het aanpakken van complexe uitdagingen centraal staan. 
-                        Wil je meer ontdekken over mijn interesses en hoe ze bijdragen aan mijn professionele groei? 
-                        Breng een bezoek aan mijn <a href="hobbies.html">Hobby's</a> om meer te weten te komen over mijn vrijetijdsbesteding en de impact ervan op 
-                        mijn vaardigheden en benadering van het leven.
-                    </p> 
-            </div>
-<footer>
-    <p>© 2023 Wannes Caelen</p>
-</footer>
+            
+<!-- einde hero -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <a href="competenties.html">
+      <img src="../img/experience.jpg" class="card-img-top" alt="...">
+    </a>
+      <div class="card-body">
+        <h5 class="card-title">Vaardigheden</h5>
+        <p class="card-text">Ik ben altijd op zoek naar nieuwe uitdagingen en kansen om mijn vaardigheden verder te
+          ontwikkelen en waarde toe te voegen aan deze branche. Als programmeur streef ik ernaar om heldere en
+          functionele code te schrijven. En om vooral ook bij te leren.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <!--eerste card -->
+  <div class="col">
+    <div class="card h-100">
+      <a href="hobbies.html">
+        <img src="../img/GamingFoto.jpg" class="card-img-top" alt="...">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">Hobby's</h5>
+        <p class="card-text">Wil je meer ontdekken over mijn interesses en hoe ze bijdragen aan mijn professionele groei? 
+          Breng een bezoek aan mijn hobby's om meer te weten te komen over mijn vrijetijdsbesteding en de impact ervan op 
+          mijn vaardigheden en benadering van het leven.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <!-- tweede card -->
+  <div class="col">
+    <div class="card h-100">
+      <a href="curriculumvitae.html">
+      <img src="../img/dogbook.jpg" class="card-img-top" alt="dogbook" >
+    </a>
+      <div class="card-body">
+        <h5 class="card-title">CV</h5>
+        <p class="card-text">Mijn CV is een document dat mijn professionele ervaring samenvat. Het belicht mijn prestaties, vaardigheden en passie voor het programmeren.
+           Het vertelt het verhaal van mijn toewijding aan groei en voortdurende verbetering. Ik ben klaar voor nieuwe uitdagingen en kansen.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- einde cards (3 kolommen inbegrepen)-->
+
+
+<div class="container-fluid py-5">
+  <h1 class="display-5 fw-bold">Bekijk zeker mijn andere pagina's!</h1>
+  <p class="col-md-8 fs-6">
+          Ik nodig je dus ook van harte uit om mijn <a href="curriculumvitae.html">Curriculum Vitae</a> te verkennen, zodat je meer te weten kunt komen over mijn
+          professionele achtergrond en prestaties. Als je interesse hebt in mijn diensten of als je wilt samenwerken,
+          aarzel dan niet om <a href="contactgegevens.html">Contact</a> met me op te nemen. 
+          Laten we samenwerken aan boeiende projecten en nieuwe uitdagingen aangaan in de wereld van het programmeren.
+      </p>
+      <p class="col-md-8 fs-6">
+          Als student en programmeur, is mijn wereld niet beperkt tot alleen code en technologie. 
+          Naast het schrijven van heldere en functionele code, deel ik graag mijn fascinatie voor strategische games, 
+          waarbij teamwork en het aanpakken van complexe uitdagingen centraal staan. 
+          
+      </p> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Wannes Caelen</span>
+              </div>
+            
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/wannes-caelen-242931250/"><img class="bi" width="24" height="24" src="../img/linkedinlogo.avif"></img></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/WannesCaelen"><img class="bi" width="24" height="24" src="../img/githubimage.png"></img></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/wannesCaelen/"><img class="bi" width="24" height="24" src= "../img/instaimage.avif"></img></a></li>
+              </ul>
+            </footer>
+            <!-- einde footer -->
 
 </body>
 </html>
